@@ -1,19 +1,108 @@
 <!doctype html>
 <html>
 <head>
-  <title> WEB1-html</title>
+  <title>코딩 연습</title>
   <meta charset="utf-8">
+  <style>
+      a{
+        color: black;
+        text-decoration-line: none;
+      }
+      #mainTitle{
+        text-align: center;
+        border-bottom: 2px solid;
+      }
+      .img{
+        width: 20px;
+        vertical-align: middle;
+        padding: 5px;
+
+      }
+      #mainList{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+        text-align: center;
+      }
+      .subVertical{
+        padding-right: 30px;
+        display: inline-block;
+
+      }
+      #contents{
+        padding: 50px;
+      }
+      .contentsTitle{
+        padding: 15px 0px 15px 0px;
+      }
+      .contentsBody{
+        padding-bottom: 30px;
+      }
+
+  </style>
 </head>
+
 <body>
-  <h1><a href="1.html">WEB</h1>
-  <ol>
-    <li><a href="1.html">HTML</li>
-    <li><a href="2.html">CSS</li>
-    <li><a href="3.html">JavaScript</li>
-  </ol>
-  <h1>html이란 무엇인가</h1>
-  <p><a href="1.html">
-    html</a>
-    what is a html
+  <div id="mainTitle">
+    <h1><a href="index.html">WEB</a></h1>
+  </div>
+
+  <div id="mainList">
+      <div class="subVertical"><a href="1.html"><img class="img"src="/Users/jisung.han/Desktop/web/img/html.png">HTML</a></div>
+      <div class="subVertical"><a href="2.html"><img class="img"src="/Users/jisung.han/Desktop/web/img/css.png">CSS</a></div>
+      <div class="subVertical"><a href="3.html"><img class="img"src="/Users/jisung.han/Desktop/web/img/JavaScript.png">JavaScript</a></div>
+  </div>
+
+  <div id="contents">
+    <div class="contentsTitle">
+      <b>웹(Web)의 개념</b><br>
+    </div>
+    <div class="contentsBody">
+      월드 와이드 웹(World Wide Web)이란 인터넷에 연결된 사용자들이 서로의 정보를 공유할 수 있는 공간을 의미합니다. <br>
+      간단히 줄여서 WWW나 W3라고도 부르며, 간단히 웹(Web)이라고 가장 많이 불립니다. <br>
+      인터넷과 같은 의미로 많이 사용되고 있지만, 정확히 말해 웹은 인터넷상의 인기 있는 하나의 서비스일 뿐입니다. <br>
+      하지만 현재에는 인터넷과 웹이라는 단어가 서로 혼용되어 사용될 만큼 인터넷의 가장 큰 부분을 차지하고 있습니다.
+    </div>
+    <div class="contentsTitle">
+      <b>웹의 특징</b><br>
+    </div>
+    <div class="contentsBody">
+      웹은 인터넷 상에서 텍스트나 그림, 소리, 영상 등과 같은 멀티미디어 정보를 하이퍼텍스트 방식으로 연결하여 제공합니다. <br>
+      하이퍼텍스트(hypertext)란 문서 내부에 또 다른 문서로 연결되는 참조를 집어 넣음으로써 웹 상에 존재하는 여러 문서끼리 서로 참조할 수 있는 기술을 의미합니다. <br>
+      이때 문서 내부에서 또 다른 문서로 연결되는 참조를 하이퍼링크(hyperlink)라고 부릅니다.
+    </div>
+
+    <div class="contentsTitle">
+      <b>웹의 구성</b><br>
+    </div>
+    <div class="contentsBody">
+      웹에서는 HTML 언어를 사용하여 작성된 하이퍼텍스트 문서를 웹 페이지(web page)라고 부릅니다.<br>
+      이러한 웹 페이지들 중에서 서로 관련된 내용으로 작성된 웹 페이지들의 집합을 웹 사이트(web site)라고 합니다.<br>
+      웹은 이렇게 작성된 수많은 웹 페이지들이 하이퍼링크(hyperlink)를 통해 서로 연결되어 구성됩니다.<br>
+      사용자가 웹 페이지에 포함된 하이퍼링크를 따라 다른 웹 페이지들로 계속하여 이동하는 것을 웹 서핑(web surfing)이라고 부르며, 이때 사용자가 웹 페이지를  검색하기 위해 사용하는 프로그램을 웹 브라우저(web browser)라고 합니다.
+
+
+    </div>
+
+    <div class="contentsTitle">
+      <b>웹의 발전</b><br>
+    </div>
+    <div class="contentsBody">
+      1989년 팀 버너스리가 연구원 간에 아이디어를 주고받을 때 항상 전자 우편이나 파일을 통해 주고받는 것이 비효율적이라고 생각하여 제안한 웹은 공통된 공간에 각자의 정보를 올리고 관리할 수 있는 일종의 정보 관리 시스템에서 시작되었습니다.<br>
+      이렇게 시작된 웹 1.0에서는 사용자가 웹 사이트에서 미리 분류하고 정리해 놓은 자료들만을 일방적으로 전달받아야 했습니다.<br>
+      하지만 웹의 발전에 따라 시작된 웹 2.0에서는 사용자가 직접 정보를 생산하고 참여하는 집단 지성의 공간으로 탈바꿈합니다.<br>
+      웹 2.0은 게시판이나 댓글, 블로그, 그리고 위키백과 등과 같이 사용자가 직접 참여하여 만들어 나가는 서비스에서 찾아볼 수 있습니다.
+
+
+    </div>
+
+
+
+
+
+
+
+
+  </div>
 </body>
 </html>
