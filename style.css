@@ -4,7 +4,6 @@
     a:link {text-decoration: none; color: black;}
     a:visited {text-decoration: none; color: black;}
     a:active {text-decoration: none; color: black;}
-    a:hover {text-decoration: underline; color: red;}
 
 
 
@@ -52,7 +51,6 @@
     }
     #night_day{
       font-size: 100px;
-      padding-left: 50px;
     }
 
 
